@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Tobias Light';
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #DBD6CC;
+
+}
+#main{
+        position: relative;
+height: 100%;
+    width: 100%;
+   
+}
+#center{
+    width: 100%;
+   height: 100%;
+ position:absolute;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+    
+ 
+}
+#cleft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    background-image: url('https://images.unsplash.com/photo-1578474846511-04ba529f0b88?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+background-size: cover;
+background-position: center;
+}
+#cleft h1{
+    color: white;
+    font-size: 80px;
+    letter-spacing: 4px;
+    font-weight: 400;
+   
+   
+}
+#cright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+  background-image: url(https://imgs.search.brave.com/w7dj_K9K0Bfugl4RCVyB3k0FgnWwwKfHVLPJlO-Wda0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9rbXNr/YS5iZS9zaXRlcy9k/ZWZhdWx0L2ZpbGVz/L3N0eWxlcy90ZWFt/L3B1YmxpYy8yMDIx/LTAzL0FmYmVlbGRp/bmc0LmpwZz9oPTE2/YTZkODE3Jml0b2s9/RjVFQ2FSZXo);
+    background-size: cover;
+background-position: center;
+}
+#cright h1{
+    color: white;
+    font-weight: 400;
+    font-size: 80px;
+    letter-spacing: 4px;
+   
+}
+#hero{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+#nav1{
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#left{
+    padding-left: 40px;
+    margin-top: 66px;
+
+}
+#left h3{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 100;
+}
+#nav1 img{
+    margin-top: 70px;
+    position: absolute;
+    height: 70px;
+    width: 80px;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+#right{
+    margin-top: 60px;
+    display: flex;
+    gap: 30px;
+    padding-right: 30px;
+  
+
+}
+#right h3{  margin-top: 6px;
+    opacity: 0.5;
+    letter-spacing:2px;
+}
+#right i{
+    margin-top: 6px;
+    font-size: 22px;
+    border-radius: 50px;
+}
+#right button{
+    border-radius: 50px;
+    padding: 7px;
+    font-weight: 800;
+}
+#nav2{
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+#nav2 h4{
+    padding-left: 40px;
+    font-size: 15px;
+    font-weight: 100;
+}
+#nav2 h1{
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+#nav2 h3{
+    padding-right: 30px;
+    font-size: 15px;
+    font-weight: 200;
+    text-align: center;
+}
+#page1{
+    position: absolute;
+display: flex;
+width: 1000px;
+height: 100%;
+gap: 50px;
+
+
+
+
+
+}
+#pleft{
+    width: 750px;
+    height: 100%;
+    margin-left: 35px;
+    margin-top: 60px;
+
+}
+#pleft img{
+    height: 550px;
+    width:750px;
+  
+}
+
+#pright{
+    
+    width: 250px;
+    height: 100%;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+      left: 200px;
+
+}
+#ptop{
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+    gap: 30px;
+}
+#ptop h5{margin-bottom: 2px;
+    width: 300px;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 200;
+ 
+}
+#ptop p{
+    
+    font-size: 30px;
+    width: 400px;
+}
+#pbottom{
+   
+    display: flex;
+    flex-direction: row;
+  justify-content: space-between;
+   gap: 100px;
+}
+#pbleft{
+    margin-top: 15px;
+}
+#pbottom i{
+
+    font-size: 50px;
+    opacity: 0.6;
+}
+#pbright{
+    margin-top: 10px;
+    text-align: center;
+}
+#pbright h3{
+   
+width: 300px;
+font-size: 30px;
+}
+#pbright p{
+    font-size: 10px;
+}
+
+#page2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#cafe{
+    margin-top: 450px;
+    margin-left: 33px;
+    display: flex;
+    flex-direction: column;
+}
+#ctop{
+  
+    height: 350px;
+    width: 350px;
+    background-color: #B4A285;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease 0.8s;
+}
+#ctop h3{
+
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.1vw;
+    font-weight: 100;
+    width: 160px;
+    text-align: center;
+}
+#ctop img{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    transition: all ease 0.8s;
+}
+#restaurant{
+    margin-top: 450px;
+    margin-left: 33px;
+    display: flex;
+    flex-direction: column;
+}
+#rtop{
+    height: 350px;
+    width: 350px;
+    background-color: #331C10;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease 0.8s;
+}
+#rtop h3{
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.1vw;
+    font-weight: 100;
+    width: 160px;
+    text-align: center;
+}
+#rtop img{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    transition: all ease 0.8s;
+}
+#bar{
+    margin-top: 450px;
+    margin-left: 33px;
+    display: flex;
+    flex-direction: column;
+}
+#btop{
+    height: 350px;
+    width: 350px;
+    background-color: #0A0605;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease 0.8s;
+}
+#btop h3{
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.1vw;
+    font-weight: 100;
+    width: 160px;
+    text-align: center;
+}
+#btop img{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    transition: all ease 0.8s;
+}
+
+@media (max-width:600px) {
+    
+    #nav1{
+    
+        height: 120px;
+        width: 100%;
+        display: none
+   
+        
+    }
+    #nav2{
+        border-bottom: 2px solid black;
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+       gap: 20px;
+    }
+    #page2{
+        height: 100%;
+        width: 100%;
+        display: flex;
+       flex-direction: column;
+       margin-top: 500px;
+    }
+    #nav2 h4{
+        padding-left: 10px;
+        font-size: 12px;
+        font-weight: 500;
+        width: 100px;
+        
+    }
+    #nav2 h3{
+        padding-right: 10px;
+        font-size: 12px;
+        font-weight: 200;
+        width: 100px;
+    }
+    #page1{
+        position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 100%;
+    gap: 50px;
+   
+    
+    
+    
+    
+    
+    }
+    #pright{
+    
+        width: 250px;
+        height: 100%;
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+    margin-left: 80px;
+     
+    
+    }
+    #pleft{
+        width: 300px;
+        height: 100%;
+        margin-left: 15px;
+        margin-top: 60px;
+    
+    }
+    #pleft img{
+        height: 550px;
+        width:500px;
+      
+    }
+    #restaurant{
+        margin-top: 100px;
+        margin-left: 33px;
+        display: flex;
+        flex-direction: column;
+    }
+    #bar{
+        margin-top: 100px;
+        margin-left: 33px;
+        display: flex;
+        flex-direction: column;
+    }
+    #cright h1{
+        color: white;
+        font-weight: 400;
+        font-size: 30px;
+        letter-spacing: 4px;
+       
+    }
+    #cleft h1{
+        color: white;
+        font-size: 30px;
+        letter-spacing: 4px;
+        font-weight: 400;
+       
+       
+    }
+
+}
